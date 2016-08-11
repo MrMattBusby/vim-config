@@ -1,11 +1,15 @@
 set foldmethod=expr
 set foldexpr=getline(v:lnum)=~'^\\s*#.*'?1:0
-"set foldenable
 set foldtext=substitute(foldtext(),'\*\*','','g')
-set tabstop=4
+"set foldenable
+
+set textwidth=79
 set shiftwidth=4
-set softtabstop=4
+set tabstop=4
 set expandtab
+set softtabstop=4
+set shiftround
+set autoindent
 
 " Overwrite the cindent and indentkeys 0# option in insert
 inoremap # X<BS># 

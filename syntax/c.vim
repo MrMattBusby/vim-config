@@ -7,10 +7,6 @@ hi def link cCusType cType
 " Make Note a todo keyword
 syn keyword cTodo contained Note NOTE REMOVEME WARNING WAG RECHECK
 
-" Project specific
-syn keyword cTodo contained HC130H HC130 C130 HC144H HC144 HC130A1U HC144A1U
-syn keyword cTodo contained E2D E2C C2A
-
 " C# /++ type highlighting
 syn keyword Boolean true false NULL TRUE FALSE
 syn keyword Statement namespace stderr stdin stdout new this delete
