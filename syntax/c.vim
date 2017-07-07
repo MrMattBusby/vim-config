@@ -2,6 +2,8 @@ syn keyword cType int8 uint8 int16 uint16 int32 uint32 float32 float64 int64 uin
 
 " Custom types ending in _t
 syn match cCusType "\<[a-zA-Z0-9_]*_t\>"
+syn match cCusType "\<[a-zA-Z0-9_]*_e\>"
+syn match cCusType "\<[a-zA-Z0-9_]*_s\>"
 hi def link cCusType cType
 
 " Make Note a todo keyword
